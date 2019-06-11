@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		878CC4B19884E3263CB73832 /* Pods_Ikon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD04C8C5FA07A9830CA9132 /* Pods_Ikon.framework */; };
+		A827119A22A72C09005992B9 /* OtherUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A827119922A72C09005992B9 /* OtherUsers.swift */; };
+		A827119C22A78302005992B9 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A827119B22A78302005992B9 /* FriendsViewController.swift */; };
+		A827119E22A783B8005992B9 /* FriendCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A827119D22A783B8005992B9 /* FriendCellTableViewCell.swift */; };
+		A82711A022A83D1F005992B9 /* addFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A827119F22A83D1F005992B9 /* addFriendsViewController.swift */; };
+		A8316543222CBBF000704900 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8316542222CBBF000704900 /* AppDelegate.swift */; };
+		A8316548222CBBF000704900 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8316546222CBBF000704900 /* Main.storyboard */; };
+		A831654A222CBBF100704900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8316549222CBBF100704900 /* Assets.xcassets */; };
+		A831654D222CBBF100704900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A831654B222CBBF100704900 /* LaunchScreen.storyboard */; };
+		A8316555222CC29E00704900 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8316554222CC29E00704900 /* UserViewController.swift */; };
+		A8316560222CC6D700704900 /* ikon_logo_yellow-600w.png in Resources */ = {isa = PBXBuildFile; fileRef = A831655F222CC6D700704900 /* ikon_logo_yellow-600w.png */; };
+		A8316562222CC72F00704900 /* Unknown.png in Resources */ = {isa = PBXBuildFile; fileRef = A8316561222CC72F00704900 /* Unknown.png */; };
+		A8316564222CC7A100704900 /* IKONLOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = A8316563222CC7A100704900 /* IKONLOGO.png */; };
+		A8316566222CD0F900704900 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8316565222CD0F900704900 /* UserProfileViewController.swift */; };
+		A83BDE95222CD46C009BC659 /* MyResortsCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83BDE94222CD46C009BC659 /* MyResortsCells.swift */; };
+		A83BDE97222CD4E3009BC659 /* Resorts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83BDE96222CD4E3009BC659 /* Resorts.swift */; };
+		A83BDE99222CE5BD009BC659 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83BDE98222CE5BD009BC659 /* User.swift */; };
+		A83BDE9D222CF7AF009BC659 /* UserResortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83BDE9C222CF7AF009BC659 /* UserResortViewController.swift */; };
+		A83BDE9F222D0705009BC659 /* SkiMapResorts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83BDE9E222D0705009BC659 /* SkiMapResorts.swift */; };
+		A83BDEA1222D24F6009BC659 /* Resorts.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83BDEA0222D24F6009BC659 /* Resorts.plist */; };
+		A83BDEA3222DBB11009BC659 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83BDEA2222DBB11009BC659 /* MapViewController.swift */; };
+		A83BDEA5222DC6CE009BC659 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83BDEA4222DC6CD009BC659 /* Weather.swift */; };
+		A83BDEA7222DC6D5009BC659 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83BDEA6222DC6D5009BC659 /* Forecast.swift */; };
+		A83BDEA9222DC817009BC659 /* ResortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83BDEA8222DC817009BC659 /* ResortViewController.swift */; };
+		A83BDEAE222E09F4009BC659 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83BDEAD222E09F4009BC659 /* WeatherCell.swift */; };
+		A842CEDC22A5BDFC007193F0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A842CEDB22A5BDFC007193F0 /* GoogleService-Info.plist */; };
+		A842CEDE22A5C0B9007193F0 /* PopulateFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A842CEDD22A5C0B9007193F0 /* PopulateFirebase.swift */; };
+		A842CEE322A5F3C4007193F0 /* GoogleSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A842CEE222A5F3C4007193F0 /* GoogleSignIn.swift */; };
+		A87D671822A8D74900781C92 /* parallax-pass-v2-low.png in Resources */ = {isa = PBXBuildFile; fileRef = A87D671722A8D74900781C92 /* parallax-pass-v2-low.png */; };
+		A8F0B41F222E1E58005C0CE6 /* ResortsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F0B41E222E1E58005C0CE6 /* ResortsTableViewController.swift */; };
+		A8F0B421222E1F05005C0CE6 /* ResortRatingCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F0B420222E1F05005C0CE6 /* ResortRatingCells.swift */; };
+		A8F0B425222E3A70005C0CE6 /* IkonPassLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8F0B424222E3A70005C0CE6 /* IkonPassLogo.jpg */; };
+		A8F0B427222E3ADC005C0CE6 /* vmzxukty_400x400.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8F0B426222E3ADC005C0CE6 /* vmzxukty_400x400.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		072D9D9AF479295225F0C975 /* Pods-Ikon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ikon.release.xcconfig"; path = "Target Support Files/Pods-Ikon/Pods-Ikon.release.xcconfig"; sourceTree = "<group>"; };
+		1AD04C8C5FA07A9830CA9132 /* Pods_Ikon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ikon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49CF0B63C7E548C0CF1ADFCB /* Pods-Ikon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ikon.debug.xcconfig"; path = "Target Support Files/Pods-Ikon/Pods-Ikon.debug.xcconfig"; sourceTree = "<group>"; };
+		A827119922A72C09005992B9 /* OtherUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherUsers.swift; sourceTree = "<group>"; };
+		A827119B22A78302005992B9 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		A827119D22A783B8005992B9 /* FriendCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCellTableViewCell.swift; sourceTree = "<group>"; };
+		A827119F22A83D1F005992B9 /* addFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addFriendsViewController.swift; sourceTree = "<group>"; };
+		A831653F222CBBF000704900 /* Ikon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ikon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8316542222CBBF000704900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8316547222CBBF000704900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8316549222CBBF100704900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A831654C222CBBF100704900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A831654E222CBBF100704900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8316554222CC29E00704900 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		A831655F222CC6D700704900 /* ikon_logo_yellow-600w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ikon_logo_yellow-600w.png"; sourceTree = "<group>"; };
+		A8316561222CC72F00704900 /* Unknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unknown.png; sourceTree = "<group>"; };
+		A8316563222CC7A100704900 /* IKONLOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IKONLOGO.png; sourceTree = "<group>"; };
+		A8316565222CD0F900704900 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		A83BDE94222CD46C009BC659 /* MyResortsCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyResortsCells.swift; sourceTree = "<group>"; };
+		A83BDE96222CD4E3009BC659 /* Resorts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resorts.swift; sourceTree = "<group>"; };
+		A83BDE98222CE5BD009BC659 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A83BDE9C222CF7AF009BC659 /* UserResortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResortViewController.swift; sourceTree = "<group>"; };
+		A83BDE9E222D0705009BC659 /* SkiMapResorts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkiMapResorts.swift; sourceTree = "<group>"; };
+		A83BDEA0222D24F6009BC659 /* Resorts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Resorts.plist; sourceTree = "<group>"; };
+		A83BDEA2222DBB11009BC659 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		A83BDEA4222DC6CD009BC659 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		A83BDEA6222DC6D5009BC659 /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		A83BDEA8222DC817009BC659 /* ResortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortViewController.swift; sourceTree = "<group>"; };
+		A83BDEAD222E09F4009BC659 /* WeatherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		A842CEDB22A5BDFC007193F0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A842CEDD22A5C0B9007193F0 /* PopulateFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulateFirebase.swift; sourceTree = "<group>"; };
+		A842CEE222A5F3C4007193F0 /* GoogleSignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignIn.swift; sourceTree = "<group>"; };
+		A87D671722A8D74900781C92 /* parallax-pass-v2-low.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parallax-pass-v2-low.png"; sourceTree = "<group>"; };
+		A8F0B41E222E1E58005C0CE6 /* ResortsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortsTableViewController.swift; sourceTree = "<group>"; };
+		A8F0B420222E1F05005C0CE6 /* ResortRatingCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortRatingCells.swift; sourceTree = "<group>"; };
+		A8F0B424222E3A70005C0CE6 /* IkonPassLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IkonPassLogo.jpg; sourceTree = "<group>"; };
+		A8F0B426222E3ADC005C0CE6 /* vmzxukty_400x400.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vmzxukty_400x400.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A831653C222CBBF000704900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878CC4B19884E3263CB73832 /* Pods_Ikon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B5CE1A3A2C2793F561721DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49CF0B63C7E548C0CF1ADFCB /* Pods-Ikon.debug.xcconfig */,
+				072D9D9AF479295225F0C975 /* Pods-Ikon.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6BB19310E1CA0C256189BD2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AD04C8C5FA07A9830CA9132 /* Pods_Ikon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8316536222CBBF000704900 = {
+			isa = PBXGroup;
+			children = (
+				A8316541222CBBF000704900 /* Ikon */,
+				A8316540222CBBF000704900 /* Products */,
+				4B5CE1A3A2C2793F561721DA /* Pods */,
+				6BB19310E1CA0C256189BD2F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8316540222CBBF000704900 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A831653F222CBBF000704900 /* Ikon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8316541222CBBF000704900 /* Ikon */ = {
+			isa = PBXGroup;
+			children = (
+				A83BDEAA222DF660009BC659 /* Control */,
+				A83BDEAB222DF660009BC659 /* Model */,
+				A83BDEAC222DF660009BC659 /* View */,
+				A831655C222CC45400704900 /* Images */,
+				A8316546222CBBF000704900 /* Main.storyboard */,
+				A8316549222CBBF100704900 /* Assets.xcassets */,
+				A831654B222CBBF100704900 /* LaunchScreen.storyboard */,
+				A831654E222CBBF100704900 /* Info.plist */,
+				A842CEDB22A5BDFC007193F0 /* GoogleService-Info.plist */,
+				A83BDEA0222D24F6009BC659 /* Resorts.plist */,
+			);
+			path = Ikon;
+			sourceTree = "<group>";
+		};
+		A831655C222CC45400704900 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A8F0B426222E3ADC005C0CE6 /* vmzxukty_400x400.jpg */,
+				A87D671722A8D74900781C92 /* parallax-pass-v2-low.png */,
+				A8F0B424222E3A70005C0CE6 /* IkonPassLogo.jpg */,
+				A8316561222CC72F00704900 /* Unknown.png */,
+				A8316563222CC7A100704900 /* IKONLOGO.png */,
+				A831655F222CC6D700704900 /* ikon_logo_yellow-600w.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A83BDEAA222DF660009BC659 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				A83BDE94222CD46C009BC659 /* MyResortsCells.swift */,
+				A827119D22A783B8005992B9 /* FriendCellTableViewCell.swift */,
+				A8F0B420222E1F05005C0CE6 /* ResortRatingCells.swift */,
+				A83BDEAD222E09F4009BC659 /* WeatherCell.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		A83BDEAB222DF660009BC659 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A842CEDD22A5C0B9007193F0 /* PopulateFirebase.swift */,
+				A8316542222CBBF000704900 /* AppDelegate.swift */,
+				A83BDE96222CD4E3009BC659 /* Resorts.swift */,
+				A83BDE9E222D0705009BC659 /* SkiMapResorts.swift */,
+				A83BDE98222CE5BD009BC659 /* User.swift */,
+				A827119922A72C09005992B9 /* OtherUsers.swift */,
+				A83BDEA4222DC6CD009BC659 /* Weather.swift */,
+				A83BDEA6222DC6D5009BC659 /* Forecast.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A83BDEAC222DF660009BC659 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A827119F22A83D1F005992B9 /* addFriendsViewController.swift */,
+				A827119B22A78302005992B9 /* FriendsViewController.swift */,
+				A83BDEA8222DC817009BC659 /* ResortViewController.swift */,
+				A83BDE9C222CF7AF009BC659 /* UserResortViewController.swift */,
+				A8316565222CD0F900704900 /* UserProfileViewController.swift */,
+				A842CEE222A5F3C4007193F0 /* GoogleSignIn.swift */,
+				A8316554222CC29E00704900 /* UserViewController.swift */,
+				A83BDEA2222DBB11009BC659 /* MapViewController.swift */,
+				A8F0B41E222E1E58005C0CE6 /* ResortsTableViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A831653E222CBBF000704900 /* Ikon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8316551222CBBF100704900 /* Build configuration list for PBXNativeTarget "Ikon" */;
+			buildPhases = (
+				2276290BB53B7BCD5F5BF92F /* [CP] Check Pods Manifest.lock */,
+				A831653B222CBBF000704900 /* Sources */,
+				A831653C222CBBF000704900 /* Frameworks */,
+				A831653D222CBBF000704900 /* Resources */,
+				F6AB283E73A9DDF7E249CE07 /* [CP] Embed Pods Frameworks */,
+				DD619A4F1BC8E8C6FC8775FC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ikon;
+			productName = Ikon;
+			productReference = A831653F222CBBF000704900 /* Ikon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8316537222CBBF000704900 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Zaferani;
+				TargetAttributes = {
+					A831653E222CBBF000704900 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A831653A222CBBF000704900 /* Build configuration list for PBXProject "Ikon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8316536222CBBF000704900;
+			productRefGroup = A8316540222CBBF000704900 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A831653E222CBBF000704900 /* Ikon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A831653D222CBBF000704900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F0B425222E3A70005C0CE6 /* IkonPassLogo.jpg in Resources */,
+				A831654D222CBBF100704900 /* LaunchScreen.storyboard in Resources */,
+				A8F0B427222E3ADC005C0CE6 /* vmzxukty_400x400.jpg in Resources */,
+				A83BDEA1222D24F6009BC659 /* Resorts.plist in Resources */,
+				A8316562222CC72F00704900 /* Unknown.png in Resources */,
+				A831654A222CBBF100704900 /* Assets.xcassets in Resources */,
+				A8316564222CC7A100704900 /* IKONLOGO.png in Resources */,
+				A842CEDC22A5BDFC007193F0 /* GoogleService-Info.plist in Resources */,
+				A8316560222CC6D700704900 /* ikon_logo_yellow-600w.png in Resources */,
+				A87D671822A8D74900781C92 /* parallax-pass-v2-low.png in Resources */,
+				A8316548222CBBF000704900 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2276290BB53B7BCD5F5BF92F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ikon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD619A4F1BC8E8C6FC8775FC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ikon/Pods-Ikon-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ikon/Pods-Ikon-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ikon/Pods-Ikon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6AB283E73A9DDF7E249CE07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ikon/Pods-Ikon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ikon/Pods-Ikon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ikon/Pods-Ikon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A831653B222CBBF000704900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8316566222CD0F900704900 /* UserProfileViewController.swift in Sources */,
+				A83BDE97222CD4E3009BC659 /* Resorts.swift in Sources */,
+				A83BDE99222CE5BD009BC659 /* User.swift in Sources */,
+				A83BDEA5222DC6CE009BC659 /* Weather.swift in Sources */,
+				A83BDEA7222DC6D5009BC659 /* Forecast.swift in Sources */,
+				A827119A22A72C09005992B9 /* OtherUsers.swift in Sources */,
+				A83BDEA3222DBB11009BC659 /* MapViewController.swift in Sources */,
+				A827119E22A783B8005992B9 /* FriendCellTableViewCell.swift in Sources */,
+				A83BDE9F222D0705009BC659 /* SkiMapResorts.swift in Sources */,
+				A8316555222CC29E00704900 /* UserViewController.swift in Sources */,
+				A8F0B421222E1F05005C0CE6 /* ResortRatingCells.swift in Sources */,
+				A83BDE95222CD46C009BC659 /* MyResortsCells.swift in Sources */,
+				A83BDEA9222DC817009BC659 /* ResortViewController.swift in Sources */,
+				A83BDE9D222CF7AF009BC659 /* UserResortViewController.swift in Sources */,
+				A827119C22A78302005992B9 /* FriendsViewController.swift in Sources */,
+				A83BDEAE222E09F4009BC659 /* WeatherCell.swift in Sources */,
+				A8316543222CBBF000704900 /* AppDelegate.swift in Sources */,
+				A842CEE322A5F3C4007193F0 /* GoogleSignIn.swift in Sources */,
+				A8F0B41F222E1E58005C0CE6 /* ResortsTableViewController.swift in Sources */,
+				A842CEDE22A5C0B9007193F0 /* PopulateFirebase.swift in Sources */,
+				A82711A022A83D1F005992B9 /* addFriendsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8316546222CBBF000704900 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8316547222CBBF000704900 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A831654B222CBBF100704900 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A831654C222CBBF100704900 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A831654F222CBBF100704900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8316550222CBBF100704900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8316552222CBBF100704900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49CF0B63C7E548C0CF1ADFCB /* Pods-Ikon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GTBJ3XH32V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKShareKit/FBSDKShareKit.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FacebookCore/FacebookCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FacebookLogin/FacebookLogin.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FacebookShare/FacebookShare.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstanceID/FirebaseInstanceID.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+				);
+				INFOPLIST_FILE = Ikon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Zaferani.Inc.Ikon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A8316553222CBBF100704900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 072D9D9AF479295225F0C975 /* Pods-Ikon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GTBJ3XH32V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKShareKit/FBSDKShareKit.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FacebookCore/FacebookCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FacebookLogin/FacebookLogin.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FacebookShare/FacebookShare.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstanceID/FirebaseInstanceID.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+				);
+				INFOPLIST_FILE = Ikon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Zaferani.Inc.Ikon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A831653A222CBBF000704900 /* Build configuration list for PBXProject "Ikon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A831654F222CBBF100704900 /* Debug */,
+				A8316550222CBBF100704900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8316551222CBBF100704900 /* Build configuration list for PBXNativeTarget "Ikon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8316552222CBBF100704900 /* Debug */,
+				A8316553222CBBF100704900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8316537222CBBF000704900 /* Project object */;
+}
