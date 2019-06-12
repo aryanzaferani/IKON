@@ -25,10 +25,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate,GIDSignInDelegate
     {
         locationManager?.requestAlwaysAuthorization()
         locationManager = CLLocationManager()
-        GIDSignIn.sharedInstance()?.clientID = "257786873180-3ql0oq08ope0l6oad6p1bsqmu5rn8c07.apps.googleusercontent.com"
+        GIDSignIn.sharedInstance()?.clientID = ""
         GIDSignIn.sharedInstance()?.delegate = self
         FirebaseApp.configure()
-        GMSServices.provideAPIKey("AIzaSyCbOIWCyZ96xG9U0s2Pv1IXMbovbxBtUI8")
+        GMSServices.provideAPIKey("")
         return true
     }
     
